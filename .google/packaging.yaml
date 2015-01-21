@@ -5,8 +5,14 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [UI]
+categories:   [Design, UI]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-BorderlessButtons
+level:        INTERMEDIATE
+icon:         screenshots/big_icon.png
+apiRefs:
+    - android:android.widget.Button
+    - android:android.widget.ListView
+    - android:android.app.ListActivity
 license: apache2

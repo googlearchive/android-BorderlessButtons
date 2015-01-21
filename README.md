@@ -1,8 +1,24 @@
 Android BorderlessButtons Sample
 ===================================
 
-This sample demonstrates the use of borderless buttons, bottom button bars
-(OK and Cancel) and dividers to establish visual structure.
+This sample demonstrates the borderless button styling from the Holo visual language.
+Styling is applied in the XML resource layout definitions, referecing the styling attributes
+from the Holo theme.
+
+Introduction
+------------
+
+This sample shows how to style widgets in an Activity using [borderless elements][1].
+This includes a ListView with custom rows and buttons, using dividing lines to create
+visual separatation.
+
+Style definitions are provided by the Holo theme, which includes references to the 
+'?android:buttonBarButtonStyle' for buttons and references to the appropriate divider 
+attribute and style 'android:dividerVertical'.
+
+Styles are directly applied to widgets in their XML layout definitions.
+
+[1]: http://developer.android.com/design/building-blocks/buttons.html#borderless
 
 Pre-requisites
 --------------
@@ -10,6 +26,11 @@ Pre-requisites
 - Android SDK v21
 - Android Build Tools v21.1.1
 - Android Support Repository
+
+Screenshots
+-------------
+
+<img src="screenshots/1-activity.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
