@@ -23,8 +23,8 @@ Styles are directly applied to widgets in their XML layout definitions.
 Pre-requisites
 --------------
 
-- Android SDK v21
-- Android Build Tools v21.1.2
+- Android SDK v22
+- Android Build Tools v22.0.1
 - Android Support Repository
 
 Screenshots
